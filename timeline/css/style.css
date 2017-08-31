@@ -32,6 +32,51 @@ header{
   margin: 20px 0 20px 0;
 }
 
+.tl-block{
+  position: relative;
+  width:100%;
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
+.tl-year{
+  background: url(../img/point-big.png) no-repeat 50% 0;
+  display: block;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.tl-year div{
+  color:#fff;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  padding-top: 23px;
+  text-align: center;
+}
+
+.tl-event{
+  backgroud: url(../img/point-small.png) no-repeat top center;
+  margin:auto;
+  width: 100%;
+  overflow: hidden;
+  visibility: visible;
+}
+
+.tl-event > div{
+  width: 45%;
+  position: relative;
+}
+
+.tl-event div div {
+  background: #fff;
+  border-radius: 10px
+  padding: 15px;
+}
+
 footer{
   background: #5e6482;
   height: 40px;
