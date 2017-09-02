@@ -64,6 +64,13 @@ header{
 	width:100%;
 	overflow:hidden;
 	visibility:visible;
+	-webkit-animation:fade;
+	-webkit-animation-duration:2s;
+}
+
+@-webkit-keyframes fade{
+	0% {opacity:0;}
+	100% {opacity:1;}
 }
 
 .tl-event > div{
@@ -126,6 +133,32 @@ footer{
   }
 
   #timeline{
-    background:url(../img/line.png) repeat-y 0 0;
+    background:url(../img/line.png) repeat-y 30px 0;
   }
+
+	.tl-year{
+		background:url(../img/point-big.png) no-repeat 0 0;
+		text-align:left;
+		margin:0;
+	}
+
+	.tl-event{
+		background:url(../img/point-small.png) no-repeat 16px 0;
+	}
+
+	.tl-event div{
+		width:85%;
+		position:relative;
+	}
+
+	.tl-event div.event-l{
+	  float:right;
+	  background:url(../img/arrow-left.png) no-repeat 0 0;
+	}
+
+	.tl-event div.event-l div{
+	  margin-left:20px;
+		margin-right:0;
+	}
+
 }
