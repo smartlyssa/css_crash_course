@@ -152,13 +152,13 @@ footer{
 	}
 
 	.tl-event div.event-l{
-	  float:right;
-	  background:url(../img/arrow-left.png) no-repeat 0 0;
+		float:right;
+		background:url(../img/arrow-left.png) no-repeat 0 0;
 	}
 
 	.tl-event div.event-l div{
-	  margin-left:20px;
-	  margin-right:0;
+		margin-left:20px;
+		margin-right:0;
 	}
 
 }
