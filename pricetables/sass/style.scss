@@ -35,7 +35,15 @@ em {
 
 .tbl-block {
 	float: left;
-	width: 23%;
+	
+	@if $columns == 4 {
+		width: 23%;
+	} @else if $columns == 3 {
+		width: 30%;
+	} @else {
+		width: 23%;
+	}
+	
 	margin: 0 1%;
 	box-sizing: border-box;
 	background: #fff;
